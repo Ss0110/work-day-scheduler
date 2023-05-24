@@ -5,14 +5,15 @@
 Create a simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
 ## User Story:
+
 ```
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 ```
 
-
 ## Acceptance Criteria:
+
 ```
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
@@ -30,10 +31,11 @@ THEN the saved events persist
 ```
 
 ## Screenshot
-![Final verison example of Work Day Scheduler.](Develop/Assets/images/1.gif)
+
+![Final verison example of Work Day Scheduler.](assets/1.gif)
 
 ## Deployed Application
 
-
 ## GitHub Location
+
 https://github.com/Ss0110/work-day-scheduler.git
