@@ -1,10 +1,19 @@
 $(function () {
-  $(".save-btn").on("click", function () {
+  $(".saveBtn").on("click", function () {
     var timeBlock = $(this).closest(".time-block");
     var hourId = timeBlock.attr("id");
     var userInput = timeBlock.find(".description").val();
 
     localStorage.setItem(hourId, userInput);
+  });
+
+  $("#clear-all").on("click", function () {
+    $("textarea").val("");
+    $("ul").empty();
+    $(".time-block").each(function () {
+      var hourId = $(this).attr("id");
+      localStorage.removeItem(hourId);
+    });
   });
 
   var currentHour = dayjs().format("H");
@@ -30,6 +39,6 @@ $(function () {
     }
   });
 
-  var currentDate = dayjs().format("MMM D, YYYY");
+  var currentDate = dayjs().format("dddd, MMM D, YYYY");
   $("#current-date").text(currentDate);
 });
