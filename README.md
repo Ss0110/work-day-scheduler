@@ -36,6 +36,8 @@ THEN the saved events persist
 
 ## Deployed Application
 
+https://ss0110.github.io/work-day-scheduler/
+
 ## GitHub Location
 
 https://github.com/Ss0110/work-day-scheduler.git
