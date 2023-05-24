@@ -32,7 +32,7 @@ THEN the saved events persist
 
 ## Screenshot
 
-![Final verison example of Work Day Scheduler.](images/1.gif)
+![Final verison example of Work Day Scheduler.](assets/images/1.gif)
 
 ## Deployed Application
 
